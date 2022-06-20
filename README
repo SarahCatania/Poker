@@ -1,0 +1,27 @@
+#Team TBD: Tram Le, Brandon Huynh, Diego Rodriguez-Orozco, Sarah Catania-Orozco, Pranav Balamurali
+THE MOST EPICEST POKER GAME 3000!!!
+
+Software Version: 0.1
+
+Date Release: 
+Alpha version - May 23, 2022
+Beta version - May 29, 2022 
+Final release - June 06, 2022
+
+## Introduction
+The most Epicest Poker Game 3000 is a poker game using GUI and Socket.
+
+## System Requirement
+x86-64 bit Linux System
+
+## Installation
+tar -xvzf Poker_V1.0_src.tar.gz
+cd Poker_V1.0_src
+make
+make server (starts server)
+make client (starts client)
+**Server and client cannot be ran on same terminal
+
+#License
+Created by Brandon Huynh, Diego Rodriguez-Orozco, Tram Le, Sarah Catania-Orozco, Pranav Balamurali
+This project was created by Team TBD of EECS 22L class at University of California, Irvine

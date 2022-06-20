@@ -1,0 +1,27 @@
+The Most Epicest Poker Game 3000
+
+System Requirement
+	x86-64 bit Linux System
+
+Installation from USB Drive
+	Unpacking the .tar.gz file to a location on your computer and run .exe file to launch the program.
+
+Installation for a binary package
+	tar -xvzf Poker_V1.0.tar.gz
+	evince poker/doc/Poker_UserManual.pdf
+	poker/bin/poker
+
+Installation for a source code package
+	tar -xvzf Poker_V1.0_src.tar.gz
+	evince poker/doc/Poker_SoftwareSpec.pdf
+	make
+	make server (starts server)
+	make client (starts client)
+	make clean
+**Server and client cannot be ran on same terminal
+
+Uninstallation
+	from
+	cd ..
+	rm -rf Poker_V1.0_src
+	rm -rf Poker_V1.0_src.tar.gz
